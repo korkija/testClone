@@ -1,0 +1,48 @@
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container-left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.button-choose {
+    background-color: #67d9f8;
+    width: 200px;
+    border-radius: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-color: #6bdaf8;
+    margin: 10px;
+}
+
+.weather-day {
+    background-color: #f5c488;
+    width: 350px;
+    border-radius: 15px;
+    padding-top: 10px;
+    border-color: #fbf28e;
+    margin: 5px;
+}
+
+.scroll {
+    height: 400px;
+    width: 400px;
+    overflow: auto;
+}
+
+
